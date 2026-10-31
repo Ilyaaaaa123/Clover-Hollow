@@ -3,12 +3,12 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Clover Hollow — A Cozy Bunny Life Game</title>
-  <meta name="description" content="Clover Hollow is a cozy pixel-art life game where you play as a customizable bunny: dress up, befriend villagers, farm, cook, and build your dream sanctuary." />
-  <meta property="og:title" content="Clover Hollow — A Cozy Bunny Life Game" />
-  <meta property="og:description" content="Clover Hollow is a cozy pixel-art life game where you play as a customizable bunny: dress up, befriend villagers, farm, cook, and build your dream sanctuary." />
+  <title>MY Topia — A Cozy Life Sim, Coming Soon</title>
+  <meta name="description" content="Make yourself at home in MY Topia. Build, explore, find your people, and enjoy a cozy new life-sim adventure. Coming soon." />
+  <meta property="og:title" content="MY Topia — Coming Soon" />
+  <meta property="og:description" content="A cozy new world is waiting for you. MY Topia is coming soon." />
   <meta property="og:type" content="website" />
-  <meta property="og:image" content="img/hero.png" />
+  <meta property="og:image" content="img/heartopia-poster.jpg" />
   <meta name="twitter:card" content="summary_large_image" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,21 +16,19 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-
-  <!-- ===== HEADER ===== -->
   <header class="site-header">
     <div class="container header-inner">
-      <a href="#top" class="logo">
-        <span class="logo-badge">🐇</span>
-        <span class="logo-text">Clover Hollow</span>
+      <a href="#top" class="logo" aria-label="MY Topia home">
+        <span class="logo-badge" aria-hidden="true">💖</span>
+        <span class="logo-text">MY Topia</span>
       </a>
-      <nav class="main-nav">
-        <a href="#about">About</a>
-        <a href="#features">Features</a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#about">The World</a>
+        <a href="#features">What Awaits</a>
         <a href="#gallery">Gallery</a>
         <a href="#updates">Updates</a>
       </nav>
-      <a href="https://store.steampowered.com/" target="_blank" rel="noreferrer" class="pixel-btn btn-primary btn-small header-cta">
+      <a href="https://store.steampowered.com/app/4025700/Heartopia/" target="_blank" rel="noreferrer" class="pixel-btn btn-primary btn-small header-cta">
         <svg class="icon icon-heart" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"/></svg>
         Wishlist on Steam
       </a>
@@ -38,216 +36,134 @@
   </header>
 
   <main>
-
-    <!-- ===== HERO ===== -->
     <section id="top" class="hero">
       <div class="cloud" style="top:4rem; animation-duration:70s" aria-hidden="true"><i></i><i></i><i></i></div>
       <div class="cloud cloud-small" style="top:10rem; animation-duration:95s" aria-hidden="true"><i></i><i></i><i></i></div>
       <div class="dot-grid hero-dots" aria-hidden="true"></div>
-
       <div class="container hero-grid">
         <div class="hero-copy">
           <span class="tag">
             <svg class="icon icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z"/><path d="M20 2v4"/><path d="M22 4h-4"/><circle cx="4" cy="20" r="2"/></svg>
-            Coming soon to PC
+            A new world is on its way
           </span>
-          <h1 class="hero-title">Clover<br />Hollow</h1>
-          <p class="hero-lead">A cozy little life, one hop at a time. Grow, cook, dress up and build a home for every bunny in the meadow.</p>
+          <h1 class="hero-title">MY Topia</h1>
+          <p class="hero-lead">Make yourself at home in a world full of little adventures. Build your dream place, explore at your own pace, and make warm memories with friends.</p>
           <div class="hero-buttons">
-            <a href="https://store.steampowered.com/" target="_blank" rel="noreferrer" class="pixel-btn btn-primary">
+            <a href="https://store.steampowered.com/app/4025700/Heartopia/" target="_blank" rel="noreferrer" class="pixel-btn btn-primary">
               <svg class="icon icon-heart" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"/></svg>
               Wishlist on Steam
             </a>
             <a href="#gallery" class="pixel-btn btn-light">
               <svg class="icon icon-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 5a2 2 0 0 1 3.008-1.728l11.997 6.998a2 2 0 0 1 .003 3.458l-12 7A2 2 0 0 1 5 19z"/></svg>
-              Play the Demo
+              Explore MY Topia
             </a>
           </div>
-          <p class="hero-note">Free demo available · Full release 2027</p>
+          <p class="hero-note">Coming soon · Your next cozy chapter starts here</p>
         </div>
-
         <div class="hero-art">
-          <div class="speech">hi, friend! ♡</div>
+          <div class="speech">see you there! ♡</div>
           <div class="pixel-frame hero-frame">
-            <video class="pixelated" autoplay muted loop playsinline preload="metadata" poster="img/hero.png" aria-label="Clover Hollow gameplay video"><source src="img/hero-video.mov" type="video/quicktime" /></video>
+            <video class="hero-video" autoplay muted loop playsinline controls preload="auto" poster="img/heartopia-poster.jpg" aria-label="MY Topia gameplay preview">
+              <source src="img/hero-video.mp4" type="video/mp4" />
+            </video>
           </div>
         </div>
       </div>
-
       <div class="grass-edge" aria-hidden="true"></div>
     </section>
 
-    <!-- ===== ABOUT ===== -->
     <section id="about" class="about">
       <div class="container two-col">
         <div class="pixel-frame about-frame">
-          <img src="img/friends.png" width="1200" height="896" loading="lazy" class="pixelated" alt="Bunny villagers chatting around a fountain in the town square" />
+          <img src="img/heartopia-style.jpg" width="854" height="480" loading="lazy" alt="A bright island neighborhood in MY Topia" />
         </div>
         <div>
-          <p class="eyebrow eyebrow-sage">Welcome to the Hollow</p>
-          <h2 class="section-title">A gentle world, made for slowing down</h2>
+          <p class="eyebrow eyebrow-sage">Welcome to your new home</p>
+          <h2 class="section-title">A little world with room to be you</h2>
           <div class="about-text">
-            <p>Tucked between rolling clover fields and a babbling brook lies Clover Hollow, a sleepy valley waiting for someone to call it home. That someone is you.</p>
-            <p>Create your very own bunny — pick the ears, the fur, the freckles — and spend your days however you like. Plant a garden, bake a pie for the neighbors, or simply sit by the pond and watch the fireflies come out.</p>
+            <p>MY Topia is a cozy life-sim world made for creativity, freedom, and finding your own pace. Wander through colorful neighborhoods, meet the people around you, and see what each day brings.</p>
+            <p>Make a home that feels like yours, try a new hobby, or invite friends along for the day. There is always another corner to explore and another memory to make.</p>
           </div>
           <ul class="perks">
-            <li>
-              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>
-              No timers, no pressure
-            </li>
-            <li>
-              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 9.536V7a4 4 0 0 1 4-4h1.5a.5.5 0 0 1 .5.5V5a4 4 0 0 1-4 4 4 4 0 0 0-4 4c0 2 1 3 1 5a5 5 0 0 1-1 3"/><path d="M4 9a5 5 0 0 1 8 4 5 5 0 0 1-8-4"/><path d="M5 21h14"/></svg>
-              A world that grows with you
-            </li>
-            <li>
-              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"/></svg>
-              Endlessly customizable bunny
-            </li>
+            <li><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 10.5 12 3l9 7.5"/><path d="M5 9v12h14V9"/><path d="M9 21v-7h6v7"/></svg>Your own cozy place</li>
+            <li><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a15 15 0 0 1 0 18M12 3a15 15 0 0 0 0 18"/></svg>Somewhere new to explore</li>
+            <li><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="10" cy="7" r="4"/><path d="M20 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>Good days with friends</li>
           </ul>
         </div>
       </div>
     </section>
 
-    <!-- ===== FEATURES ===== -->
     <section id="features" class="features dot-grid">
       <div class="container">
         <div class="section-head">
-          <p class="eyebrow eyebrow-lavender">Things to do</p>
-          <h2 class="section-title">Your cozy days, your way</h2>
-          <p class="section-sub">Every season brings something new to collect, cook, meet and build.</p>
+          <p class="eyebrow eyebrow-lavender">Make it your own little world</p>
+          <h2 class="section-title">There is no one way to spend a day</h2>
+          <p class="section-sub">Find your rhythm, follow your curiosity, and make this world your own.</p>
         </div>
-
         <div class="feature-grid">
-          <article class="pixel-frame feature-card">
-            <div class="feature-icon bg-lavender">🎀</div>
-            <div>
-              <p class="feature-num">01</p>
-              <h3>Bunny Wardrobe</h3>
-              <p>Collect tons of adorable outfits — knitted sweaters, flower crowns, tiny raincoats — and style your bunny for every season.</p>
-            </div>
-          </article>
-          <article class="pixel-frame feature-card">
-            <div class="feature-icon bg-sage">🐰</div>
-            <div>
-              <p class="feature-num">02</p>
-              <h3>Bunny Friends</h3>
-              <p>Meet lop-eared bakers, fluffy angora artists and sleepy dwarf bunnies across the map, then invite them to live in your town.</p>
-            </div>
-          </article>
-          <article class="pixel-frame feature-card">
-            <div class="feature-icon bg-blush">🥕</div>
-            <div>
-              <p class="feature-num">03</p>
-              <h3>Cozy Life</h3>
-              <p>Farm carrots and strawberries, cook warm meals in your cottage kitchen, and sell your treats at your very own market stall.</p>
-            </div>
-          </article>
-          <article class="pixel-frame feature-card">
-            <div class="feature-icon bg-cream-deep">🏡</div>
-            <div>
-              <p class="feature-num">04</p>
-              <h3>Town Building</h3>
-              <p>Construct and decorate multiple houses, gardens and lantern-lit paths to grow your dream sanctuary, one cottage at a time.</p>
-            </div>
-          </article>
+          <article class="pixel-frame feature-card"><div class="feature-icon bg-lavender">🏡</div><div><p class="feature-num">01</p><h3>Build your dream home</h3><p>Turn a cozy space into your own little retreat, then make it feel like home one detail at a time.</p></div></article>
+          <article class="pixel-frame feature-card"><div class="feature-icon bg-sage">🧭</div><div><p class="feature-num">02</p><h3>Explore at your pace</h3><p>Wander through colorful streets, sunny shores, and surprising places waiting just around the corner.</p></div></article>
+          <article class="pixel-frame feature-card"><div class="feature-icon bg-blush">🎨</div><div><p class="feature-num">03</p><h3>Try a little of everything</h3><p>Discover hobbies, dress up your character, and fill your days with the things you love doing.</p></div></article>
+          <article class="pixel-frame feature-card"><div class="feature-icon bg-cream-deep">💌</div><div><p class="feature-num">04</p><h3>Make memories together</h3><p>Meet new neighbors, spend time with friends, and share the small moments that make a place special.</p></div></article>
         </div>
       </div>
     </section>
 
-    <!-- ===== GALLERY ===== -->
     <section id="gallery" class="gallery">
       <div class="container">
         <div class="gallery-head">
-          <div>
-            <p class="eyebrow eyebrow-lavender">Screenshots</p>
-            <h2 class="section-title">Peek into the Hollow</h2>
-          </div>
-          <p class="gallery-note">Tap any snapshot to see it up close. All art is lovingly hand-placed, pixel by pixel.</p>
+          <div><p class="eyebrow eyebrow-lavender">A first look</p><h2 class="section-title">Take a peek around MY Topia</h2></div>
+          <p class="gallery-note">Little glimpses of the places, people, and moments waiting for you.</p>
         </div>
-
         <div class="gallery-grid">
-          <button type="button" class="pixel-frame shot shot-big">
-            <img src="img/town.png" loading="lazy" class="pixelated" alt="Golden hour over your growing sanctuary" />
-            <span class="caption">Golden hour over your growing sanctuary</span>
-          </button>
-          <button type="button" class="pixel-frame shot">
-            <img src="img/farm.png" loading="lazy" class="pixelated" alt="Tending the carrot patch" />
-            <span class="caption">Tending the carrot patch</span>
-          </button>
-          <button type="button" class="pixel-frame shot">
-            <img src="img/friends.png" loading="lazy" class="pixelated" alt="Catching up in the village square" />
-            <span class="caption">Catching up in the village square</span>
-          </button>
-          <button type="button" class="pixel-frame shot">
-            <img src="img/kitchen.png" loading="lazy" class="pixelated" alt="Carrot cake, fresh from the oven" />
-            <span class="caption">Carrot cake, fresh from the oven</span>
-          </button>
-          <button type="button" class="pixel-frame shot">
-            <img src="img/wardrobe.png" loading="lazy" class="pixelated" alt="Trying on something new" />
-            <span class="caption">Trying on something new</span>
-          </button>
+          <button type="button" class="pixel-frame shot shot-big"><img src="img/heartopia-world.jpg" loading="lazy" alt="Create a character and find a look that feels like you" /><span class="caption">Find a look that feels like you</span></button>
+          <button type="button" class="pixel-frame shot"><img src="img/heartopia-friends.jpg" loading="lazy" alt="Explore MY Topia's lively town" /><span class="caption">Take a stroll through town</span></button>
+          <button type="button" class="pixel-frame shot"><img src="img/heartopia-home.jpg" loading="lazy" alt="Enjoy a bright day out in MY Topia" /><span class="caption">Make an ordinary day special</span></button>
+          <button type="button" class="pixel-frame shot"><img src="img/heartopia-poster.jpg" loading="lazy" alt="A colorful amusement park in MY Topia" /><span class="caption">Find a little fun around every corner</span></button>
+          <button type="button" class="pixel-frame shot"><img src="img/heartopia-style.jpg" loading="lazy" alt="Look out over MY Topia's island neighborhoods" /><span class="caption">See where the day takes you</span></button>
         </div>
       </div>
     </section>
-
   </main>
 
-  <!-- ===== FOOTER / NEWSLETTER ===== -->
   <footer id="updates" class="site-footer">
     <div class="container footer-inner">
       <div class="pixel-frame newsletter">
         <div>
-          <h2 class="newsletter-title">Letters from the Hollow 💌</h2>
-          <p class="muted">Get devlogs, sneak peeks and early demo invites. One cozy email a month, never spam.</p>
-
-          <!-- data-netlify makes this work automatically when hosted on Netlify -->
+          <h2 class="newsletter-title">A little note from MY Topia 💌</h2>
+          <p class="muted">The world is almost ready. Sign up for news, previews, and the latest on the journey to launch.</p>
           <form name="newsletter" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="newsletter-form">
             <input type="hidden" name="form-name" value="newsletter" />
             <p hidden><label>Leave empty <input name="bot-field" tabindex="-1" autocomplete="off" /></label></p>
             <label for="newsletter-email" class="sr-only">Email address</label>
             <div class="input-wrap">
               <svg class="icon input-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"/><rect x="2" y="4" width="20" height="16" rx="2"/></svg>
-              <input id="newsletter-email" type="email" name="email" required maxlength="254" autocomplete="email" placeholder="your.email@meadow.com" />
+              <input id="newsletter-email" type="email" name="email" required maxlength="254" autocomplete="email" placeholder="your.email@example.com" />
             </div>
-            <button type="submit" class="pixel-btn btn-lavender">Subscribe</button>
+            <button type="submit" class="pixel-btn btn-lavender">Keep me posted</button>
           </form>
         </div>
-
         <div class="socials-col">
-          <p class="socials-title">Join the burrow</p>
+          <p class="socials-title">Come say hello</p>
           <div class="socials">
-            <a href="https://discord.com/" target="_blank" rel="noreferrer" aria-label="Clover Hollow on Discord" class="pixel-btn btn-social">
-              <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.32 4.37A19.8 19.8 0 0 0 15.4 2.85a13.7 13.7 0 0 0-.63 1.3 18.4 18.4 0 0 0-5.53 0 12.6 12.6 0 0 0-.64-1.3 19.7 19.7 0 0 0-4.93 1.53C.53 9.05-.32 13.6.1 18.09a19.9 19.9 0 0 0 6.04 3.05 14.7 14.7 0 0 0 1.29-2.1 12.9 12.9 0 0 1-2.04-.97c.17-.12.34-.25.5-.38a14.2 14.2 0 0 0 12.2 0c.16.13.33.26.5.38-.65.39-1.33.71-2.04.98.37.74.8 1.44 1.29 2.1a19.8 19.8 0 0 0 6.05-3.06c.5-5.2-.84-9.7-3.57-13.72ZM8.02 15.33c-1.18 0-2.16-1.09-2.16-2.42s.96-2.42 2.16-2.42c1.21 0 2.18 1.1 2.16 2.42 0 1.33-.96 2.42-2.16 2.42Zm7.97 0c-1.18 0-2.16-1.09-2.16-2.42s.96-2.42 2.16-2.42c1.21 0 2.18 1.1 2.16 2.42 0 1.33-.95 2.42-2.16 2.42Z"/></svg>
-              Discord
-            </a>
-            <a href="https://www.tiktok.com/" target="_blank" rel="noreferrer" aria-label="Clover Hollow on TikTok" class="pixel-btn btn-social">
-              <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.6 5.82A4.28 4.28 0 0 1 15.54 3h-3.09v12.4a2.59 2.59 0 0 1-2.59 2.5 2.6 2.6 0 0 1-2.59-2.6c0-1.72 1.66-3.01 3.37-2.48V9.66c-3.45-.46-6.47 2.22-6.47 5.64A5.7 5.7 0 0 0 9.86 21a5.7 5.7 0 0 0 5.68-5.7V9.01a7.35 7.35 0 0 0 4.3 1.38V7.3s-1.88.09-3.24-1.48Z"/></svg>
-              TikTok
-            </a>
-            <a href="https://x.com/" target="_blank" rel="noreferrer" aria-label="Clover Hollow on X" class="pixel-btn btn-social">
-              <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.24 2.25h3.31l-7.23 8.26 8.5 11.24h-6.66l-5.21-6.82-5.97 6.82H1.67l7.73-8.84L1.25 2.25h6.83l4.71 6.23 5.45-6.23Zm-1.16 17.52h1.83L7.08 4.13H5.12l11.96 15.64Z"/></svg>
-              X
-            </a>
+            <a href="https://discord.com/" target="_blank" rel="noreferrer" aria-label="MY Topia on Discord" class="pixel-btn btn-social"><svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.32 4.37A19.8 19.8 0 0 0 15.4 2.85a13.7 13.7 0 0 0-.63 1.3 18.4 18.4 0 0 0-5.53 0 12.6 12.6 0 0 0-.64-1.3 19.7 19.7 0 0 0-4.93 1.53C.53 9.05-.32 13.6.1 18.09a19.9 19.9 0 0 0 6.04 3.05 14.7 14.7 0 0 0 1.29-2.1 12.9 12.9 0 0 1-2.04-.97c.17-.12.34-.25.5-.38a14.2 14.2 0 0 0 12.2 0c.16.13.33.26.5.38-.65.39-1.33.71-2.04.98.37.74.8 1.44 1.29 2.1a19.8 19.8 0 0 0 6.05-3.06c.5-5.2-.84-9.7-3.57-13.72ZM8.02 15.33c-1.18 0-2.16-1.09-2.16-2.42s.96-2.42 2.16-2.42c1.21 0 2.18 1.1 2.16 2.42 0 1.33-.96 2.42-2.16 2.42Zm7.97 0c-1.18 0-2.16-1.09-2.16-2.42s.96-2.42 2.16-2.42c1.21 0 2.18 1.1 2.16 2.42 0 1.33-.95 2.42-2.16 2.42Z"/></svg>Discord</a>
+            <a href="https://www.tiktok.com/" target="_blank" rel="noreferrer" aria-label="MY Topia on TikTok" class="pixel-btn btn-social"><svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.6 5.82A4.28 4.28 0 0 1 15.54 3h-3.09v12.4a2.59 2.59 0 0 1-2.59 2.5 2.6 2.6 0 0 1-2.59-2.6c0-1.72 1.66-3.01 3.37-2.48V9.66c-3.45-.46-6.47 2.22-6.47 5.64A5.7 5.7 0 0 0 9.86 21a5.7 5.7 0 0 0 5.68-5.7V9.01a7.35 7.35 0 0 0 4.3 1.38V7.3s-1.88.09-3.24-1.48Z"/></svg>TikTok</a>
+            <a href="https://store.steampowered.com/app/4025700/Heartopia/" target="_blank" rel="noreferrer" aria-label="MY Topia on Steam" class="pixel-btn btn-social">Steam</a>
           </div>
-          <p class="muted small">Share your bunny, swap outfit ideas and chat with the devs.</p>
+          <p class="muted small">Follow along and bring a friend when the gates open.</p>
         </div>
       </div>
-
       <div class="footer-bottom">
-        <p><span class="footer-bunny">🐇</span> © <span id="year">2026</span> Clover Hollow. Made with love and carrots.</p>
-        <a href="https://store.steampowered.com/" target="_blank" rel="noreferrer" class="pixel-btn btn-primary btn-small">
-          <svg class="icon icon-heart" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"/></svg>
-          Wishlist on Steam
-        </a>
+        <p><span class="footer-bunny">💖</span> © <span id="year">2026</span> MY Topia. See you in the new world.</p>
+        <a href="https://store.steampowered.com/app/4025700/Heartopia/" target="_blank" rel="noreferrer" class="pixel-btn btn-primary btn-small"><svg class="icon icon-heart" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"/></svg>Wishlist on Steam</a>
       </div>
     </div>
   </footer>
 
-  <!-- ===== LIGHTBOX (opened by clicking a gallery screenshot) ===== -->
   <div class="lightbox" id="lightbox" hidden>
     <div class="lightbox-inner pixel-frame">
       <button type="button" class="lightbox-close" aria-label="Close">✕</button>
-      <img id="lightbox-img" class="pixelated" src="" alt="" />
+      <img id="lightbox-img" src="" alt="" />
       <p id="lightbox-caption" class="lightbox-caption"></p>
     </div>
   </div>
@@ -255,4 +171,6 @@
   <script type="module" src="script.js"></script>
 </body>
 </html>
+
+
 

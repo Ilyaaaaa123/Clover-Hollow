@@ -1,5 +1,5 @@
-/* =========================================================
-   Clover Hollow — styles
+﻿/* =========================================================
+   Clover Hollow â€” styles
    Change colors/fonts here and they update everywhere.
    ========================================================= */
 :root {
@@ -10,15 +10,15 @@
   --cream: #fbf5e9;
   --cream-deep: #f3e8d2;
   --card: #fffdf7;
-  --sage: #a9c2a0;
-  --sage-deep: #6f8f6a;
-  --sage-ink: #3f5a3f;
+  --sage: #b7ddd6;
+  --sage-deep: #529da4;
+  --sage-ink: #285860;
   --bark: #b08968;
   --bark-deep: #7a5a43;
   --cocoa: #4a3628;
-  --lavender: #c9b8e3;
-  --lavender-deep: #8e78b8;
-  --blush: #f2c4c4;
+  --lavender: #c8e5f3;
+  --lavender-deep: #658fb4;
+  --blush: #f5bbc7;
   --muted: #7d6655;
   --border: #e4d5bb;
 }
@@ -233,7 +233,7 @@ section[id], footer[id] { scroll-margin-top: 5rem; }
 @media (min-width: 1024px) {
   .hero-grid { grid-template-columns: 1fr 1.15fr; padding-top: 5rem; }
   .hero-copy { text-align: left; }
-  .hero-title { font-size: 6rem; }
+  .hero-title { font-size: 5.25rem; }
   .hero-lead { margin-left: 0; }
   .hero-buttons { justify-content: flex-start; }
 }
@@ -476,5 +476,8 @@ section[id], footer[id] { scroll-margin-top: 5rem; }
   html { scroll-behavior: auto; }
 }
 
-.hero-frame video { display: block; width: 100%; height: auto; aspect-ratio: 1376 / 768; object-fit: cover; }
+.hero-frame video { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; background: var(--sage); }
+
+
+
 
